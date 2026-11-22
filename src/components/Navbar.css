@@ -1,0 +1,38 @@
+.navbar {
+  padding: 15px 25px;
+}
+
+.logo {
+  color: #5b3288 !important;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: Georgia, serif;
+}
+
+.nav-link {
+  color: #7546a3 !important;
+  margin-left: 15px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: #7546a3;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}

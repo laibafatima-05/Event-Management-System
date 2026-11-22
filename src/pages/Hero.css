@@ -1,0 +1,62 @@
+
+.hero {
+  width: 100%;
+  min-height: 520px;
+  background:
+    linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+    url('/images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.hero h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(32px, 5vw, 55px);
+  font-weight: bold;
+  line-height: 1.2;
+  color: white;
+}
+
+.hero p {
+  font-family: Georgia, serif;
+  color: #f1eaf7;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.hero-tag {
+  font-family: Georgia, serif;
+  color: #e0c6ff;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.hero .purple-btn {
+  font-family: Georgia, serif;
+  background-color: #5b3288;
+  color: white;
+  border: 1px solid #5b3288;
+  border-radius: 25px;
+  padding: 10px 22px;
+}
+
+.hero .purple-btn:hover {
+  background-color: #452469;
+  color: white;
+}
+
+.hero .outline-btn {
+  font-family: Georgia, serif;
+  color: white;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 10px 22px;
+}
+
+.hero .outline-btn:hover {
+  background: white;
+  color: #5b3288;
+}

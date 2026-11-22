@@ -1,0 +1,75 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: #fff;
+}
+
+h2 {
+  color: #5b3288;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.purple-btn {
+  background: #5b3288;
+  color: white;
+  border: 1px solid #5b3288;
+  border-radius: 25px;
+  padding: 10px 22px;
+  text-decoration: none;
+}
+
+.purple-btn:hover {
+  background: #321a50;
+  color: white;
+}
+
+.small-heading {
+  color: #956bc0;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #7546a3;
+  box-shadow: 0 0 0 .2rem rgba(91,50,136,.15);
+}
+
+.form-card {
+  max-width: 650px;
+  margin: auto;
+  padding: 35px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 20px rgba(0,0,0,.1);
+}
+
+.form-card h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.form-card label {
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.table thead {
+  background: #5b3288;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .form-card {
+    padding: 22px;
+  }
+}
